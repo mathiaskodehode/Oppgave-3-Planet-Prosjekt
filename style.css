@@ -20,6 +20,23 @@ body {
     font-family: "Xanh Mono";
 }
 
+header {
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
 .hero,
 .info {
     height: var(--heroHeight);
