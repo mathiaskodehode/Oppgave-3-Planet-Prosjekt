@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
+
 :root {
     --heroBackground: url('./images/pia01492-neptune-full-disk-16x9-1.jpg');
     --backgroundColor: #000;
@@ -14,6 +16,7 @@
 body {
     background-color: var(--backgroundColor);
     color: var(--fontColor);
+    font-family: "Xanh Mono";
 }
 
 .hero {
