@@ -1,0 +1,41 @@
+:root {
+    --heroBackground: url('./images/pia01492-neptune-full-disk-16x9-1.jpg');
+    --backgroundColor: #000;
+    --fontColor: #fff;
+    --heroHeight: 900px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: red solid 1px;
+}
+
+body {
+    background-color: var(--backgroundColor);
+    color: var(--fontColor);
+}
+
+.hero {
+    height: var(--heroHeight);
+    background-image: var(--heroBackground);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: var(--heroHeight);
+}
+
+.heroTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.heroTextContainer h2 {
+    font-size: 255px;
+}
+
+.heroTextContainer p {
+    font-size: 50px;
+}
