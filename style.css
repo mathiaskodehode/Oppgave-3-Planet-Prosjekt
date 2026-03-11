@@ -4,10 +4,9 @@
     --backgroundColor: #000;
     --fontColor: #fff;
     --heroBackground: url('./images/pia01492-neptune-full-disk-16x9-1.jpg');
-    --infoBackground: url('./images/PIA21629-neptune-from-saturn.jpg');
     --heroHeight: 735px;
     --navbarBackgroundColor: rgba(0, 0, 0, 0.85);
-    --hoverTextColor: rgb(69, 140, 235);
+    --hoverTextColor: rgb(69, 140, 235); /* neptune blue */
 }
 
 * {
@@ -58,7 +57,7 @@ nav a:hover {
 }
 
 .info {
-    background-image: var(--infoBackground);
+    margin: 10% 0px;
 }
 
 .heroTextContainer,
@@ -78,17 +77,21 @@ nav a:hover {
     font-size: 48px;
 }
 
+.infoTextContainer {
+    justify-content: flex-start;
+}
+
 .infoTextContainer h2 {
     font-size: 64px;
     width: 70%;
-    padding: 128px 0px;
+    /* padding: 128px 0px; */
+}
+
+.infoTextContainer img {
+    height: 300px;
 }
 
 .infoTextContainer p {
     font-size: 32px;
     width: 85%;
-}
-
-.infoTextContainer {
-    justify-content: flex-start;
 }
