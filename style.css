@@ -95,3 +95,169 @@ nav a:hover {
     font-size: 32px;
     width: 85%;
 }
+
+.textstyling1{
+font-family: 'Xanh Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.textstyling2{
+font-family: 'Xanh Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.textstyling3{
+font-family: 'Xanh Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.textplacement1 {/* A year there is extremely long  One orbit around the Sun takes 165 Earth years. Since it was discovered in 1846, Neptune has completed just one full orbit. */
+
+position: relative;
+width: 389px;
+height: 72px;
+left: -150px;
+top: 50px;
+}
+
+.textplacement2 {/* It’s the farthest planet from the Sun  Neptune is the 8th and most distant planet in our Solar System, orbiting about 4.5 billion km (2.8 billion miles) from the Sun. */
+
+position: relative;
+width: 334px;
+height: 93px;
+left: 300px;
+top: 400px;
+}
+
+.textplacement3 {/* It looks blue because of methane   Methane gas in Neptune’s atmosphere absorbs red light and reflects blue light, giving the planet its deep blue color. */
+
+position: relative;
+width: 418px;
+height: 71px;
+left: 100px;
+top: 800px;
+}
+
+.textplacement4 {/* Its largest moon is very unusual  Neptune’s biggest moon, Triton, orbits backward compared to most moons. Scientists think it may have been a captured object from the Kuiper Belt. */
+
+position: relative;
+width: 426px;
+height: 79px;
+left: 120px;
+top: 1000px;
+}
+
+.textplacement5 {/* It was discovered using math Unlike most planets discovered by observation, Neptune was predicted by calculations because of unusual movements in Uranus’s orbit. */
+
+position: relative;
+width: 283px;
+height: 101px;
+left: 450px;
+top: 1550px;
+}
+
+.textplacement6 {/* Triton has cryovolcanoes Instead of lava, Triton erupts nitrogen gas and icy particles from cryovolcanoes. */
+
+position: relative;
+width: 559px;
+height: 75px;
+left: 300px;
+top: 1700px;
+}
+
+.textplacement7 {/* Only one spacecraft has visited it So far, Voyager 2 is the only spacecraft that has flown past Neptune (in 1989). */
+
+position: relative;
+width: 283px;
+height: 76px;
+left: -800px;
+top: 2100px;
+}
+
+.textplacement8 {/* Neptune’s gravity is similar to Earth’s Even though Neptune is much bigger, its surface gravity is only slightly stronger than Earth’s. */
+
+position: relative;
+width: 312px;
+height: 79px;
+left: 400px;
+top: 2100px;
+}
+
+.textplacement9 {/* Neptune may have diamond rain Scientists think the pressure inside Neptune could turn carbon into diamonds, which may fall like rain deep inside the planet. */
+
+position: relative;
+width: 523px;
+height: 61px;
+left: -700px;
+top: 2550px;
+}
+
+.image1 {/* image 1 */
+
+position: relative;
+width: 300px;
+height: 200px;
+left: 1300px;
+top: 75px;
+
+background: url(./images/2\ planets.png);
+opacity: 0.9;
+}
+
+.image2 {/* image 2 */
+
+position: relative;
+width: 300px;
+height: 300px;
+left: 200px;
+top: 600px;
+
+background: url(./images/white\ neptune.png);
+opacity: 0.9;
+}
+
+.image3 {/* image 3 */
+
+position: relative;
+width: 500px;
+height: 400px;
+left: 400px;
+top: 1600px;
+
+background: url(./images/neptune\ rings.png);
+}
+
+.image4 {/* image 4 */
+
+position: relative;
+width: 400px;
+height: 500px;
+left: 750px;
+top: 2100px;
+
+background: url(./images/neptune\ poster.png);
+}
