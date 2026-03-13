@@ -6,7 +6,8 @@
     --heroBackground: url('./images/pia01492-neptune-full-disk-16x9-1.jpg');
     --heroHeight: 735px;
     --navbarBackgroundColor: rgba(0, 0, 0, 0.85);
-    --hoverTextColor: rgb(69, 140, 235); /* neptune blue */
+    --hoverTextColor: rgb(69, 140, 235);
+    /* neptune blue */
 }
 
 * {
@@ -23,6 +24,7 @@ body {
     background-color: var(--backgroundColor);
     color: var(--fontColor);
     font-family: "Xanh Mono";
+    margin-bottom: 128px;
 }
 
 header {
@@ -73,8 +75,12 @@ nav a:hover {
     height: 100%;
 }
 
-.heroTextContainer h1 {
+h1 {
     font-size: 275px;
+}
+
+h2 {
+    font-size: 64px;
 }
 
 .heroTextContainer p {
@@ -86,9 +92,7 @@ nav a:hover {
 }
 
 .infoTextContainer h2 {
-    font-size: 64px;
     width: 70%;
-    /* padding: 128px 0px; */
 }
 
 .infoTextContainer img {
@@ -100,168 +104,39 @@ nav a:hover {
     width: 85%;
 }
 
-.textstyling1{
-font-family: 'Xanh Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 30px; 
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
+#gallery h2 {
+    text-align: center;
 }
 
-.textstyling2{
-font-family: 'Xanh Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
+.galleryItemContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 128px;
+    align-items: center;
 }
 
-.textstyling3{
-font-family: 'Xanh Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
+#gallery p {
+    font-size: 24px;
 }
 
-.textplacement1 {/* A year there is extremely long  One orbit around the Sun takes 165 Earth years. Since it was discovered in 1846, Neptune has completed just one full orbit. */
-
-position: relative;
-width: 389px;
-height: 72px;
-left: -150px;
-top: 50px;
+.galleryItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 128px;
+    width: 85%;
 }
 
-.textplacement2 {/* It’s the farthest planet from the Sun  Neptune is the 8th and most distant planet in our Solar System, orbiting about 4.5 billion km (2.8 billion miles) from the Sun. */
-
-position: relative;
-width: 334px;
-height: 93px;
-left: 200px;
-top: 400px;
+.galleryItem p {
+    font-size: 32px;
+    text-align: center;
 }
 
-.textplacement3 {/* It looks blue because of methane   Methane gas in Neptune’s atmosphere absorbs red light and reflects blue light, giving the planet its deep blue color. */
-
-position: relative;
-width: 418px;
-height: 71px;
-left: -100px;
-top: 1000px;
+.tempName .galleryItem {
+    justify-content: center;
 }
 
-.textplacement4 {/* Its largest moon is very unusual  Neptune’s biggest moon, Triton, orbits backward compared to most moons. Scientists think it may have been a captured object from the Kuiper Belt. */
-
-position: relative;
-width: 426px;
-height: 79px;
-left: 120px;
-top: 1000px;
-}
-
-.textplacement5 {/* It was discovered using math Unlike most planets discovered by observation, Neptune was predicted by calculations because of unusual movements in Uranus’s orbit. */
-
-position: relative;
-width: 283px;
-height: 101px;
-left: 450px;
-top: 1550px;
-}
-
-.textplacement6 {/* Triton has cryovolcanoes Instead of lava, Triton erupts nitrogen gas and icy particles from cryovolcanoes. */
-
-position: relative;
-width: 559px;
-height: 75px;
-left: 300px;
-top: 1700px;
-}
-
-.textplacement7 {/* Only one spacecraft has visited it So far, Voyager 2 is the only spacecraft that has flown past Neptune (in 1989). */
-
-position: relative;
-width: 283px;
-height: 76px;
-left: -800px;
-top: 2100px;
-}
-
-.textplacement8 {/* Neptune’s gravity is similar to Earth’s Even though Neptune is much bigger, its surface gravity is only slightly stronger than Earth’s. */
-
-position: relative;
-width: 312px;
-height: 79px;
-left: 400px;
-top: 2100px;
-}
-
-.textplacement9 {/* Neptune may have diamond rain Scientists think the pressure inside Neptune could turn carbon into diamonds, which may fall like rain deep inside the planet. */
-
-position: relative;
-width: 523px;
-height: 61px;
-left: -700px;
-top: 2550px;
-}
-
-.image1 {/* image 1 */
-
-position: relative;
-width: 350px;
-height: 250px;
-left: 1300px;
-top: 75px;
-
-background: url(./images/2\ planets.png);
-opacity: 0.9;
-}
-
-.image2 {/* image 2 */
-
-position: relative;
-width: 350px;
-height: 350px;
-left: 100px;
-top: 800px;
-
-background: url(./images/white\ neptune.png);
-opacity: 0.9;
-}
-
-.image3 {/* image 3 */
-
-position: relative;
-width: 550px;
-height: 450px;
-left: 400px;
-top: 1600px;
-
-background: url(./images/neptune\ rings.png);
-}
-
-.image4 {/* image 4 */
-
-position: relative;
-width: 400px;
-height: 500px;
-left: 750px;
-top: 2100px;
-
-background: url(./images/neptune\ poster.png);
+#gallery img {
+    width: 40%;
 }
