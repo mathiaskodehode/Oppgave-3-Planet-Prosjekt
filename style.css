@@ -7,12 +7,12 @@
     --heroHeight: 735px;
     --navbarBackgroundColor: rgba(0, 0, 0, 0.85);
     --hoverTextColor: rgb(69, 140, 235);
-    /* neptune blue */
 }
 
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "Xanh Mono";
     /* outline: red solid 1px; */
 }
 
@@ -23,7 +23,6 @@ html {
 body {
     background-color: var(--backgroundColor);
     color: var(--fontColor);
-    font-family: "Xanh Mono";
     margin-bottom: 128px;
 }
 
@@ -139,4 +138,37 @@ h2 {
 
 #gallery img {
     width: 40%;
+}
+
+.cookieBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    height: fit-content;
+    max-width: 25%;
+    border-radius: 16px;
+    padding: 32px;
+    background: #202020aa;
+    text-align: left;
+}
+
+.cookieBanner p {
+    margin: 25px 0 50px 0;
+}
+
+.cookieBannerButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rowReverse {
+    flex-direction: row-reverse;
+}
+
+.cookieBannerButtons button {
+    width: 30%;
 }
